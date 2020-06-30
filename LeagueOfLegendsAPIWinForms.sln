@@ -1,0 +1,83 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.779
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LeagueOfLegendsAPIWinForms", "LeagueOfLegendsAPIWinForms\LeagueOfLegendsAPIWinForms.csproj", "{DEE8A432-D89C-4DFB-9E2B-6E9DB409C58F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LeagueOfLegendsLibrary", "LeagueOfLegendsLibrary\LeagueOfLegendsLibrary.csproj", "{9DE1AF2E-59A3-4F12-8E7C-778F75527F9E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|ARM = Debug|ARM
+		Debug|ARM64 = Debug|ARM64
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|ARM = Release|ARM
+		Release|ARM64 = Release|ARM64
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DEE8A432-D89C-4DFB-9E2B-6E9DB409C58F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DEE8A432-D89C-4DFB-9E2B-6E9DB409C58F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DEE8A432-D89C-4DFB-9E2B-6E9DB409C58F}.Debug|ARM.ActiveCfg = Debug|Any CPU
+		{DEE8A432-D89C-4DFB-9E2B-6E9DB409C58F}.Debug|ARM.Build.0 = Debug|Any CPU
+		{DEE8A432-D89C-4DFB-9E2B-6E9DB409C58F}.Debug|ARM64.ActiveCfg = Debug|Any CPU
+		{DEE8A432-D89C-4DFB-9E2B-6E9DB409C58F}.Debug|ARM64.Build.0 = Debug|Any CPU
+		{DEE8A432-D89C-4DFB-9E2B-6E9DB409C58F}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{DEE8A432-D89C-4DFB-9E2B-6E9DB409C58F}.Debug|x64.Build.0 = Debug|Any CPU
+		{DEE8A432-D89C-4DFB-9E2B-6E9DB409C58F}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{DEE8A432-D89C-4DFB-9E2B-6E9DB409C58F}.Debug|x86.Build.0 = Debug|Any CPU
+		{DEE8A432-D89C-4DFB-9E2B-6E9DB409C58F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DEE8A432-D89C-4DFB-9E2B-6E9DB409C58F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DEE8A432-D89C-4DFB-9E2B-6E9DB409C58F}.Release|ARM.ActiveCfg = Release|Any CPU
+		{DEE8A432-D89C-4DFB-9E2B-6E9DB409C58F}.Release|ARM.Build.0 = Release|Any CPU
+		{DEE8A432-D89C-4DFB-9E2B-6E9DB409C58F}.Release|ARM64.ActiveCfg = Release|Any CPU
+		{DEE8A432-D89C-4DFB-9E2B-6E9DB409C58F}.Release|ARM64.Build.0 = Release|Any CPU
+		{DEE8A432-D89C-4DFB-9E2B-6E9DB409C58F}.Release|x64.ActiveCfg = Release|Any CPU
+		{DEE8A432-D89C-4DFB-9E2B-6E9DB409C58F}.Release|x64.Build.0 = Release|Any CPU
+		{DEE8A432-D89C-4DFB-9E2B-6E9DB409C58F}.Release|x86.ActiveCfg = Release|Any CPU
+		{DEE8A432-D89C-4DFB-9E2B-6E9DB409C58F}.Release|x86.Build.0 = Release|Any CPU
+		{9DE1AF2E-59A3-4F12-8E7C-778F75527F9E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9DE1AF2E-59A3-4F12-8E7C-778F75527F9E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9DE1AF2E-59A3-4F12-8E7C-778F75527F9E}.Debug|ARM.ActiveCfg = Debug|Any CPU
+		{9DE1AF2E-59A3-4F12-8E7C-778F75527F9E}.Debug|ARM.Build.0 = Debug|Any CPU
+		{9DE1AF2E-59A3-4F12-8E7C-778F75527F9E}.Debug|ARM64.ActiveCfg = Debug|Any CPU
+		{9DE1AF2E-59A3-4F12-8E7C-778F75527F9E}.Debug|ARM64.Build.0 = Debug|Any CPU
+		{9DE1AF2E-59A3-4F12-8E7C-778F75527F9E}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{9DE1AF2E-59A3-4F12-8E7C-778F75527F9E}.Debug|x64.Build.0 = Debug|Any CPU
+		{9DE1AF2E-59A3-4F12-8E7C-778F75527F9E}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{9DE1AF2E-59A3-4F12-8E7C-778F75527F9E}.Debug|x86.Build.0 = Debug|Any CPU
+		{9DE1AF2E-59A3-4F12-8E7C-778F75527F9E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9DE1AF2E-59A3-4F12-8E7C-778F75527F9E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9DE1AF2E-59A3-4F12-8E7C-778F75527F9E}.Release|ARM.ActiveCfg = Release|Any CPU
+		{9DE1AF2E-59A3-4F12-8E7C-778F75527F9E}.Release|ARM.Build.0 = Release|Any CPU
+		{9DE1AF2E-59A3-4F12-8E7C-778F75527F9E}.Release|ARM64.ActiveCfg = Release|Any CPU
+		{9DE1AF2E-59A3-4F12-8E7C-778F75527F9E}.Release|ARM64.Build.0 = Release|Any CPU
+		{9DE1AF2E-59A3-4F12-8E7C-778F75527F9E}.Release|x64.ActiveCfg = Release|Any CPU
+		{9DE1AF2E-59A3-4F12-8E7C-778F75527F9E}.Release|x64.Build.0 = Release|Any CPU
+		{9DE1AF2E-59A3-4F12-8E7C-778F75527F9E}.Release|x86.ActiveCfg = Release|Any CPU
+		{9DE1AF2E-59A3-4F12-8E7C-778F75527F9E}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EAE3D0DA-7435-4220-A112-3435E0CB5970}
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 3
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://shirzadbako.visualstudio.com/
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = LeagueOfLegendsAPIWinForms\\LeagueOfLegendsAPIWinForms.csproj
+		SccProjectName1 = LeagueOfLegendsAPIWinForms
+		SccLocalPath1 = LeagueOfLegendsAPIWinForms
+		SccProjectUniqueName2 = LeagueOfLegendsLibrary\\LeagueOfLegendsLibrary.csproj
+		SccProjectName2 = LeagueOfLegendsLibrary
+		SccLocalPath2 = LeagueOfLegendsLibrary
+	EndGlobalSection
+EndGlobal
