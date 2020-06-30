@@ -194,6 +194,3 @@ namespace LeagueOfLegendsAPIWinForms
         }
     }
 }
-
-
-//test
