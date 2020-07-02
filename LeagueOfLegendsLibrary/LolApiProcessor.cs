@@ -16,6 +16,13 @@ namespace LeagueOfLegendsAPIWinForms
     {
 
         public static string key = "RGAPI-6cab67e4-e56d-4a61-9694-4210b038938c";
+
+        /// <summary>
+        /// get summoner information based on region and summoner name
+        /// </summary>
+        /// <param name="region"></param>
+        /// <param name="SummonerName"></param>
+        /// <returns></returns>
         public static async Task<SummonerDTO> LoadSummoner(string region, string SummonerName)
         {
             string url = "";
@@ -44,7 +51,12 @@ namespace LeagueOfLegendsAPIWinForms
             }
         }
 
-
+        /// <summary>
+        /// The champion information
+        /// </summary>
+        /// <param name="region"></param>
+        /// <param name="SummonerID"></param>
+        /// <returns></returns>
         public static async Task<List<ChampionMasteryDTO>> LoadChampion(string region, string SummonerID)
         {
             string url = "";
@@ -73,6 +85,10 @@ namespace LeagueOfLegendsAPIWinForms
             }
         }
 
+        /// <summary>
+        /// more information about the champion
+        /// </summary>
+        /// <returns></returns>
         public static async Task<Rootobject> GetDetailedChampInfo()
         {
             string url = "http://ddragon.leagueoflegends.com/cdn/10.3.1/data/en_US/champion.json";
@@ -85,6 +101,12 @@ namespace LeagueOfLegendsAPIWinForms
             return championData;
         }
 
+       /// <summary>
+       /// Get the summoner/users rank
+       /// </summary>
+       /// <param name="region"></param>
+       /// <param name="SummonerID"></param>
+       /// <returns></returns>
         public static async Task<List<LeagueEntryDTO>> GetChampionRank(string region, string SummonerID)
         {
             string url = "";
@@ -106,6 +128,11 @@ namespace LeagueOfLegendsAPIWinForms
 
         }
 
+        /// <summary>
+        /// Gets the summoners score
+        /// </summary>
+        /// <param name="SummonerID"></param>
+        /// <returns></returns>
         public static async Task<SummonerScore> GetSummonerScore(string SummonerID)
         {
             string url = "";

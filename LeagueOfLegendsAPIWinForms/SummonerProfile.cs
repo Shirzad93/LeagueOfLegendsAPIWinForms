@@ -17,20 +17,18 @@ namespace LeagueOfLegendsAPIWinForms
     {
         public string region;
         public string summonerName;
-
-        //List<string> chestsAvailable = new List<string>();
-        //List<string> chestsNotAvailable = new List<string>();
-
+        
         public int chestsAvailableCounter = 1;
         public int chestsNotAvailableCounter = 1;
 
         int GetSummonerIconWidth = 100;
         int GetSummonerIconHeight = 100;
-
-
+        
         int GetChampionIconWidth = 40;
         int GetChampionIconHeight = 40;
 
+        List<string> listOfChampionNames = new List<string>();
+        
         int TierIconWidth = 120;
         int TierIconHeight = 120;
         PictureBox picture = new PictureBox();
@@ -40,26 +38,34 @@ namespace LeagueOfLegendsAPIWinForms
             ApiHelper.InitializeClinet();
         }
 
-        
+
         private async void SummonerProfile_Load(object sender, EventArgs e)
         {
+            picture = new PictureBox()
+            {
+                Name = "pictureBox",
+
+            };
+            this.Controls.Add(picture);
+
+            //Summoner Info
             var summonerInfo = await LolApiProcessor.LoadSummoner(region, summonerName);
             var summonerID = summonerInfo.ID;
-            var championName = "NoName";
+            var icon = summonerInfo.ProfileIconId;
 
-            var championInfo = await LolApiProcessor.LoadChampion(region, summonerID);
-            long ChampionID = 0;
-
+            IdHolder.Text = summonerID;
+            ProfileNameHolder.Text = summonerInfo.Name;
+            LevelHolder.Text = summonerInfo.SummonerLevel.ToString();
+            
+            //All info about the champion
             Rootobject detailedChampionInfo = await LolApiProcessor.GetDetailedChampInfo();
-
             var testDetailedChampionInfo = detailedChampionInfo.Data.Values.OrderBy(x => x.Key).ToList();
 
-            var icon = summonerInfo.ProfileIconId;
+            
             GetSummonerIcon(icon);
 
-            var summonerScore = await LolApiProcessor.GetSummonerScore(summonerID);
-
-            var championRank = await LolApiProcessor.GetChampionRank(region, summonerID);
+            //All info about the summoner by id
+            var championRank  = await LolApiProcessor.GetChampionRank(region, summonerID);
 
             foreach (var item in championRank)
             {
@@ -80,39 +86,43 @@ namespace LeagueOfLegendsAPIWinForms
                 }
             }
             
-            ProfileNameHolder.Text = summonerInfo.Name;
-            LevelHolder.Text = summonerInfo.SummonerLevel.ToString();
-            IdHolder.Text = summonerInfo.ID;
-
+            //summoner score
+            var summonerScore = await LolApiProcessor.GetSummonerScore(summonerID);
             ScoreHolder.Text = summonerScore.SummonerScores;
 
+            //Information about the champion
+            var championInfo = await LolApiProcessor.LoadChampion(region, summonerID);
+            long ChampionID = 0;
 
             foreach (var champ in championInfo)
             {
-                ChampionID = champ.ChampionId;
 
-                championName = testDetailedChampionInfo.Where(x => x.Key == champ.ChampionId).FirstOrDefault().Id;
-                //GetChampionImg(championName);
-                
+                ChampionID = champ.ChampionId;
+                var championName = testDetailedChampionInfo.Where(x => x.Key == champ.ChampionId).FirstOrDefault().Id;
+                //await GetChampionImg(championName);
+
+                listOfChampionNames.Add(championName);
+
                 if (champ.ChestGranted == true)
                 {
                     ChesNotAvailableListBox.Items.Add(chestsNotAvailableCounter++ + ". " + " (Lvl: " + champ.ChampionLevel.ToString() + ") - " + championName);
                     //ChesNotAvailableListBox.Items.Add("______________________________");
-                    //PictureBox picture = new PictureBox();
-                    //picture.Location = new Point(10 + chestsNotAvailableCounter, 10);
-                    //this.Controls.Add(picture);
                 }
                 else if (champ.ChampionPoints > 0)
                 {
-                    ChestAvailableListBox.Items.Add(chestsAvailableCounter++ + ". " + " (Lvl: " + champ.ChampionLevel.ToString() + ") - " + championName );
+                    ChestAvailableListBox.Items.Add(chestsAvailableCounter++ + ". " + " (Lvl: " + champ.ChampionLevel.ToString() + ") - " + championName);
                     //ChestAvailableListBox.Items.Add("______________________________");
-                    //PictureBox picture = new PictureBox();
-                    //picture.Location = new Point(10 + chestsAvailableCounter, 10);
-                    //this.Controls.Add(picture);
+
                 }
             }
+            //IN WORK!
+            //await GetChampionImg(listOfChampionNames);
         }
 
+        /// <summary>
+        /// The icon for the summoner/user
+        /// </summary>
+        /// <param name="icon"></param>
         private void GetSummonerIcon(long icon)
         {
             string path = $"https://opgg-static.akamaized.net/images/profile_icons/profileIcon{icon}.jpg";
@@ -128,21 +138,39 @@ namespace LeagueOfLegendsAPIWinForms
             }
         }
 
-        private void GetChampionImg(string name)
+        /// <summary>
+        /// Get Champion Images
+        /// </summary>
+        /// <param name="listOfChampionNames"></param>
+        /// <returns></returns>
+        private async Task GetChampionImg(List<string> listOfChampionNames)
         {
-            string path = $"http://ddragon.leagueoflegends.com/cdn/10.13.1/img/champion/{name}.png";
-            
-            WebRequest request = WebRequest.Create(path);
-
-            using (var response = request.GetResponse())
+            List<string> paths = new List<string>();
+            foreach (var name in listOfChampionNames)
             {
-                using (var str = response.GetResponseStream())
+                paths.Add($"http://ddragon.leagueoflegends.com/cdn/10.13.1/img/champion/{name}.png");
+            }
+
+            foreach (var path in paths)
+            {
+                WebRequest request = WebRequest.Create(path);
+
+                using (var response = await Task.Run(() => request.GetResponse()))
                 {
-                    picture.Image = ReSize(Bitmap.FromStream(str), GetChampionIconWidth, GetChampionIconHeight);
+                    using (var str = response.GetResponseStream())
+                    {
+                        picture.Image = ReSize(Bitmap.FromStream(str), GetChampionIconWidth, GetChampionIconHeight);
+                    }
                 }
             }
         }
 
+        /// <summary>
+        /// Gets the icons for the ranks
+        /// </summary>
+        /// <param name="rank"></param>
+        /// <param name="tier"></param>
+        /// <param name="QueueType"></param>
         private void GetSoloRankedIcons(string rank, string tier, string QueueType)
         {
             var tierLower = tier.ToLower();
@@ -185,6 +213,14 @@ namespace LeagueOfLegendsAPIWinForms
             }
 
         }
+
+        /// <summary>
+        /// Resize The images
+        /// </summary>
+        /// <param name="img"></param>
+        /// <param name="Width"></param>
+        /// <param name="Height"></param>
+        /// <returns></returns>
         Image ReSize(Image img, int Width, int Height)
         {
             Bitmap newSize = new Bitmap(img, Width, Height);

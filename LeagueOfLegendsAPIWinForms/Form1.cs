@@ -27,6 +27,11 @@ namespace LeagueOfLegendsAPIWinForms
             CheckForUpdates();
 
         }
+
+        /// <summary>
+        /// in progress
+        /// </summary>
+        /// <returns></returns>
         private async Task CheckForUpdates()
         {
 
@@ -39,6 +44,12 @@ namespace LeagueOfLegendsAPIWinForms
         {
             showStats();
         }
+
+        /// <summary>
+        /// Enter key when pressed
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void CheckEnterKeyPress(object sender, KeyEventArgs e)
         {
             if (e.KeyCode == Keys.Enter)
@@ -61,7 +72,10 @@ namespace LeagueOfLegendsAPIWinForms
             }
         }
 
-
+        /// <summary>
+        /// show stats
+        /// </summary>
+        /// <param name="name"></param>
         private void showStats(string name)
         {
             var summonerName = name;
