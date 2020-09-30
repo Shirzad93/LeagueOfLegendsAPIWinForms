@@ -90,7 +90,7 @@ namespace LeagueOfLegendsAPIWinForms
             var summonerScore = await LolApiProcessor.GetSummonerScore(summonerID);
             ScoreHolder.Text = summonerScore.SummonerScores;
 
-            //Information about the champion
+            //Information about the champion for the summoner/player
             var championInfo = await LolApiProcessor.LoadChampion(region, summonerID);
             long ChampionID = 0;
 
@@ -108,11 +108,10 @@ namespace LeagueOfLegendsAPIWinForms
                     ChesNotAvailableListBox.Items.Add(chestsNotAvailableCounter++ + ". " + " (Lvl: " + champ.ChampionLevel.ToString() + ") - " + championName);
                     //ChesNotAvailableListBox.Items.Add("______________________________");
                 }
-                else if (champ.ChampionPoints > 0)
+                else /*if(champ.ChampionPoints > 0)*/
                 {
                     ChestAvailableListBox.Items.Add(chestsAvailableCounter++ + ". " + " (Lvl: " + champ.ChampionLevel.ToString() + ") - " + championName);
                     //ChestAvailableListBox.Items.Add("______________________________");
-
                 }
             }
             //IN WORK!

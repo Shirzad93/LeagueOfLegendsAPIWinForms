@@ -43,7 +43,7 @@
             this.label8 = new System.Windows.Forms.Label();
             this.nawziiiLabel = new System.Windows.Forms.Label();
             this.fouadLabel = new System.Windows.Forms.Label();
-            this.Ejlabel = new System.Windows.Forms.Label();
+            this.Bahleklabel = new System.Windows.Forms.Label();
             this.flowLayoutPanel2 = new System.Windows.Forms.FlowLayoutPanel();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
@@ -126,7 +126,7 @@
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(70, 13);
             this.label3.TabIndex = 7;
-            this.label3.Text = "Shiroo v1.0.2";
+            this.label3.Text = "Shiroo v1.0.3";
             // 
             // ShirooLabel
             // 
@@ -226,19 +226,19 @@
             this.fouadLabel.Text = "fouad";
             this.fouadLabel.Click += new System.EventHandler(this.fouadLabel_Click);
             // 
-            // Ejlabel
+            // Bahleklabel
             // 
-            this.Ejlabel.AutoSize = true;
-            this.Ejlabel.BackColor = System.Drawing.Color.White;
-            this.Ejlabel.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.Ejlabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Ejlabel.ForeColor = System.Drawing.Color.Black;
-            this.Ejlabel.Location = new System.Drawing.Point(278, 543);
-            this.Ejlabel.Name = "Ejlabel";
-            this.Ejlabel.Size = new System.Drawing.Size(32, 24);
-            this.Ejlabel.TabIndex = 12;
-            this.Ejlabel.Text = "EJ";
-            this.Ejlabel.Click += new System.EventHandler(this.Ejlabel_Click);
+            this.Bahleklabel.AutoSize = true;
+            this.Bahleklabel.BackColor = System.Drawing.Color.White;
+            this.Bahleklabel.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.Bahleklabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Bahleklabel.ForeColor = System.Drawing.Color.Black;
+            this.Bahleklabel.Location = new System.Drawing.Point(278, 543);
+            this.Bahleklabel.Name = "Bahleklabel";
+            this.Bahleklabel.Size = new System.Drawing.Size(67, 24);
+            this.Bahleklabel.TabIndex = 12;
+            this.Bahleklabel.Text = "Bahlek";
+            this.Bahleklabel.Click += new System.EventHandler(this.Ejlabel_Click);
             // 
             // flowLayoutPanel2
             // 
@@ -256,7 +256,7 @@
             this.Controls.Add(this.label8);
             this.Controls.Add(this.nawziiiLabel);
             this.Controls.Add(this.fouadLabel);
-            this.Controls.Add(this.Ejlabel);
+            this.Controls.Add(this.Bahleklabel);
             this.Controls.Add(this.hkmatLabel);
             this.Controls.Add(this.sizarLabel);
             this.Controls.Add(this.AthiarLabel);
@@ -299,7 +299,7 @@
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.Label nawziiiLabel;
         private System.Windows.Forms.Label fouadLabel;
-        private System.Windows.Forms.Label Ejlabel;
+        private System.Windows.Forms.Label Bahleklabel;
         private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel2;
     }
 }

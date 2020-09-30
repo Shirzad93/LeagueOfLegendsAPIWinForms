@@ -4,14 +4,6 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace LeagueOfLegendsLibrary.Models
-{
-    class testClass
-    {
-    }
-}
-
-
 public class Rootobject
 {
     public string Type { get; set; }

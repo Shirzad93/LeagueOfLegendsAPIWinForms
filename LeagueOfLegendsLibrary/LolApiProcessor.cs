@@ -33,7 +33,7 @@ namespace LeagueOfLegendsAPIWinForms
             }
             else
             {
-                url = "https://euw1.api.riotgames.com/lol/summoner/v4/summoners/by-name/shirtzoo?api_key={key}";
+                url = $"https://euw1.api.riotgames.com/lol/summoner/v4/summoners/by-name/shirtzoo?api_key={key}";
             }
 
             using (HttpResponseMessage response = await ApiHelper.ApiClient.GetAsync(url))
@@ -91,7 +91,7 @@ namespace LeagueOfLegendsAPIWinForms
         /// <returns></returns>
         public static async Task<Rootobject> GetDetailedChampInfo()
         {
-            string url = "http://ddragon.leagueoflegends.com/cdn/10.3.1/data/en_US/champion.json";
+            string url = "http://ddragon.leagueoflegends.com/cdn/10.20.1/data/en_US/champion.json";
 
             string response = await ApiHelper.ApiClient.GetStringAsync(url);
 

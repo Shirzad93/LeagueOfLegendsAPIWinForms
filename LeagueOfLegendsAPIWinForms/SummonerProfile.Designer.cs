@@ -54,6 +54,7 @@
             this.label4 = new System.Windows.Forms.Label();
             this.LossesHolder = new System.Windows.Forms.Label();
             this.WinsHolder = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.IconBox)).BeginInit();
             this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.SOLOpictureBox)).BeginInit();
@@ -343,12 +344,24 @@
             this.WinsHolder.TabIndex = 15;
             this.WinsHolder.Text = "99";
             // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.ForeColor = System.Drawing.Color.Azure;
+            this.label1.Location = new System.Drawing.Point(324, 405);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(424, 13);
+            this.label1.TabIndex = 15;
+            this.label1.Text = "OBS: Only shows champions u have played with at least once in normal, ranked or a" +
+    "ram!";
+            // 
             // SummonerProfile
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.Highlight;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.label1);
             this.Controls.Add(this.IconBox);
             this.Controls.Add(this.LevelHolder);
             this.Controls.Add(this.ProfileNameHolder);
@@ -404,5 +417,6 @@
         private System.Windows.Forms.Label flexRankPositiontext;
         private System.Windows.Forms.Label LeaguePoints;
         private System.Windows.Forms.Label FlexLeaguePoints;
+        private System.Windows.Forms.Label label1;
     }
 }
