@@ -25,13 +25,12 @@ namespace LeagueOfLegendsAPIWinForms
             ReagionComboBox.DataSource = Enum.GetValues(typeof(regions));
 
             SummonerNameBox.Select();
-            addVersionNumber();
-            //CheckForUpdates();
-            updateApp();
+            AddVersionNumber();
+            UpdateApp();
 
         }
 
-        public void addVersionNumber()
+        public void AddVersionNumber()
         {
             System.Reflection.Assembly assembly = System.Reflection.Assembly.GetExecutingAssembly();
             FileVersionInfo versioninfo = FileVersionInfo.GetVersionInfo(assembly.Location);
@@ -44,14 +43,10 @@ namespace LeagueOfLegendsAPIWinForms
         /// in progress
         /// </summary>
         /// <returns></returns>
-        private async Task updateApp()
+        private async Task UpdateApp()
         {
             manager = await UpdateManager.GitHubUpdateManager(@"https://github.com/Shirzad93/LeagueOfLegendsAPIWinForms");
             await manager.UpdateApp();
-            //using (var manager = new UpdateManager(@"https://github.com/Shirzad93/LeagueOfLegendsAPIWinForms"))
-            //{
-            //    await manager.UpdateApp();
-            //}
         }
 
 
