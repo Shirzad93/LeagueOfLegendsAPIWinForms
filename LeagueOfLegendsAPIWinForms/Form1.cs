@@ -28,6 +28,7 @@ namespace LeagueOfLegendsAPIWinForms
             addVersionNumber();
             //CheckForUpdates();
             updateApp();
+
         }
 
         public void addVersionNumber()
@@ -46,7 +47,7 @@ namespace LeagueOfLegendsAPIWinForms
         private async Task updateApp()
         {
             manager = await UpdateManager.GitHubUpdateManager(@"https://github.com/Shirzad93/LeagueOfLegendsAPIWinForms");
-
+            await manager.UpdateApp();
             //using (var manager = new UpdateManager(@"https://github.com/Shirzad93/LeagueOfLegendsAPIWinForms"))
             //{
             //    await manager.UpdateApp();
