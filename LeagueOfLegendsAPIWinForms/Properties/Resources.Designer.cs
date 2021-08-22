@@ -63,9 +63,69 @@ namespace LeagueOfLegendsAPIWinForms.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap all_pos {
+            get {
+                object obj = ResourceManager.GetObject("all pos", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap league_of_legends_logo {
             get {
                 object obj = ResourceManager.GetObject("league-of-legends_logo", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Position_Gold_Bot {
+            get {
+                object obj = ResourceManager.GetObject("Position_Gold-Bot", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Position_Gold_Jungle {
+            get {
+                object obj = ResourceManager.GetObject("Position_Gold-Jungle", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Position_Gold_Mid {
+            get {
+                object obj = ResourceManager.GetObject("Position_Gold-Mid", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Position_Gold_Support {
+            get {
+                object obj = ResourceManager.GetObject("Position_Gold-Support", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Position_Gold_Top {
+            get {
+                object obj = ResourceManager.GetObject("Position_Gold-Top", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

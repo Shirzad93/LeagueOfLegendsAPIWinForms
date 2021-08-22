@@ -50,7 +50,7 @@
             // 
             // SummonerNameBox
             // 
-            this.SummonerNameBox.Location = new System.Drawing.Point(111, 329);
+            this.SummonerNameBox.Location = new System.Drawing.Point(111, 309);
             this.SummonerNameBox.Name = "SummonerNameBox";
             this.SummonerNameBox.Size = new System.Drawing.Size(185, 20);
             this.SummonerNameBox.TabIndex = 0;
@@ -61,7 +61,7 @@
             this.label1.BackColor = System.Drawing.Color.White;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.Black;
-            this.label1.Location = new System.Drawing.Point(109, 304);
+            this.label1.Location = new System.Drawing.Point(109, 284);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(97, 24);
             this.label1.TabIndex = 1;
@@ -73,7 +73,7 @@
             this.label2.BackColor = System.Drawing.Color.White;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.Black;
-            this.label2.Location = new System.Drawing.Point(109, 362);
+            this.label2.Location = new System.Drawing.Point(109, 342);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(71, 24);
             this.label2.TabIndex = 2;
@@ -82,7 +82,7 @@
             // ReagionComboBox
             // 
             this.ReagionComboBox.FormattingEnabled = true;
-            this.ReagionComboBox.Location = new System.Drawing.Point(111, 387);
+            this.ReagionComboBox.Location = new System.Drawing.Point(111, 367);
             this.ReagionComboBox.Name = "ReagionComboBox";
             this.ReagionComboBox.Size = new System.Drawing.Size(185, 21);
             this.ReagionComboBox.TabIndex = 3;
@@ -92,7 +92,7 @@
             this.SearchSummoner.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(17)))), ((int)(((byte)(255)))));
             this.SearchSummoner.Font = new System.Drawing.Font("Arial Unicode MS", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.SearchSummoner.ForeColor = System.Drawing.Color.White;
-            this.SearchSummoner.Location = new System.Drawing.Point(147, 429);
+            this.SearchSummoner.Location = new System.Drawing.Point(147, 409);
             this.SearchSummoner.Name = "SearchSummoner";
             this.SearchSummoner.Size = new System.Drawing.Size(112, 33);
             this.SearchSummoner.TabIndex = 4;
@@ -104,9 +104,9 @@
             // 
             this.pictureBox1.Image = global::LeagueOfLegendsAPIWinForms.Properties.Resources.league_of_legends_logo;
             this.pictureBox1.InitialImage = null;
-            this.pictureBox1.Location = new System.Drawing.Point(103, 28);
+            this.pictureBox1.Location = new System.Drawing.Point(100, 12);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(200, 200);
+            this.pictureBox1.Size = new System.Drawing.Size(215, 216);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 5;
             this.pictureBox1.TabStop = false;
@@ -114,9 +114,9 @@
             // flowLayoutPanel1
             // 
             this.flowLayoutPanel1.BackColor = System.Drawing.Color.White;
-            this.flowLayoutPanel1.Location = new System.Drawing.Point(61, 295);
+            this.flowLayoutPanel1.Location = new System.Drawing.Point(61, 234);
             this.flowLayoutPanel1.Name = "flowLayoutPanel1";
-            this.flowLayoutPanel1.Size = new System.Drawing.Size(292, 187);
+            this.flowLayoutPanel1.Size = new System.Drawing.Size(292, 248);
             this.flowLayoutPanel1.TabIndex = 6;
             // 
             // label3
@@ -126,7 +126,7 @@
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(70, 13);
             this.label3.TabIndex = 7;
-            this.label3.Text = "Shiroo v1.0.3";
+            this.label3.Text = "Shiroo v1.0.8";
             // 
             // ShirooLabel
             // 
@@ -168,7 +168,7 @@
             this.hkmatLabel.Size = new System.Drawing.Size(63, 24);
             this.hkmatLabel.TabIndex = 11;
             this.hkmatLabel.Text = "Hkmat";
-            this.hkmatLabel.Click += new System.EventHandler(this.hkmatLabel_Click);
+            this.hkmatLabel.Click += new System.EventHandler(this.HkmatLabel_Click);
             // 
             // sizarLabel
             // 
@@ -182,7 +182,7 @@
             this.sizarLabel.Size = new System.Drawing.Size(48, 24);
             this.sizarLabel.TabIndex = 10;
             this.sizarLabel.Text = "sizar";
-            this.sizarLabel.Click += new System.EventHandler(this.sizarLabel_Click);
+            this.sizarLabel.Click += new System.EventHandler(this.SizarLabel_Click);
             // 
             // label8
             // 
@@ -196,7 +196,7 @@
             this.label8.Size = new System.Drawing.Size(47, 24);
             this.label8.TabIndex = 15;
             this.label8.Text = "zkay";
-            this.label8.Click += new System.EventHandler(this.zkayLabel_Click);
+            this.label8.Click += new System.EventHandler(this.ZkayLabel_Click);
             // 
             // nawziiiLabel
             // 
@@ -210,7 +210,7 @@
             this.nawziiiLabel.Size = new System.Drawing.Size(66, 24);
             this.nawziiiLabel.TabIndex = 14;
             this.nawziiiLabel.Text = "nawziii";
-            this.nawziiiLabel.Click += new System.EventHandler(this.nawziiiLabel_Click);
+            this.nawziiiLabel.Click += new System.EventHandler(this.NawziiiLabel_Click);
             // 
             // fouadLabel
             // 
@@ -224,7 +224,7 @@
             this.fouadLabel.Size = new System.Drawing.Size(57, 24);
             this.fouadLabel.TabIndex = 13;
             this.fouadLabel.Text = "fouad";
-            this.fouadLabel.Click += new System.EventHandler(this.fouadLabel_Click);
+            this.fouadLabel.Click += new System.EventHandler(this.FouadLabel_Click);
             // 
             // Bahleklabel
             // 
@@ -268,8 +268,8 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.SummonerNameBox);
-            this.Controls.Add(this.flowLayoutPanel1);
             this.Controls.Add(this.flowLayoutPanel2);
+            this.Controls.Add(this.flowLayoutPanel1);
             this.Cursor = System.Windows.Forms.Cursors.Default;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.ImeMode = System.Windows.Forms.ImeMode.Close;

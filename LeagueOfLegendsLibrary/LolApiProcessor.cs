@@ -4,11 +4,13 @@ using LeagueOfLegendsLibrary.Models;
 using Newtonsoft.Json;
 using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Net;
 using System.Net.Http;
 using System.Text;
 using System.Threading.Tasks;
+using System.Windows.Forms;
 
 namespace LeagueOfLegendsAPIWinForms
 {
@@ -91,7 +93,8 @@ namespace LeagueOfLegendsAPIWinForms
         /// <returns></returns>
         public static async Task<Rootobject> GetDetailedChampInfo()
         {
-            string url = "http://ddragon.leagueoflegends.com/cdn/10.20.1/data/en_US/champion.json";
+            //string url = "https://ddragon.canisback.com/11.9.1/data/en_US/champion.json";
+            string url = "https://ddragon.canisback.com/latest/data/en_US/champion.json";
 
             string response = await ApiHelper.ApiClient.GetStringAsync(url);
 
@@ -148,13 +151,38 @@ namespace LeagueOfLegendsAPIWinForms
 
 
             string response = await ApiHelper.ApiClient.GetStringAsync(url);
-            SummonerScore score = new SummonerScore();
-
-            score.SummonerScores = response;
+            SummonerScore score = new SummonerScore
+            {
+                SummonerScores = response
+            };
 
             return score;
         }
 
+        /// <summary>
+        /// Gets the summoners score
+        /// </summary>
+        /// <param name="SummonerID"></param>
+        /// <returns></returns>
+        public static async Task<List<Rootobject>> GetChampionTags()
+        {
+
+            string url = "https://api.npoint.io/17749797a03ae45a70d1";
+
+            using (HttpResponseMessage response = await ApiHelper.ApiClient.GetAsync(url))
+            {
+                if (response.IsSuccessStatusCode)
+                {
+                    List<Rootobject> championData = await response.Content.ReadAsAsync<List<Rootobject>>();
+
+                    return championData;
+                }
+                else
+                {
+                    throw new Exception(response.ReasonPhrase);
+                }
+            }
+        }
 
 
     }

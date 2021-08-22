@@ -5,6 +5,7 @@ using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
+using System.Diagnostics;
 using System.Drawing;
 using System.Linq;
 using System.Text;
@@ -23,9 +24,17 @@ namespace LeagueOfLegendsAPIWinForms
             ReagionComboBox.DataSource = Enum.GetValues(typeof(regions));
 
             SummonerNameBox.Select();
-
+            addVersionNumber();
             CheckForUpdates();
 
+        }
+
+        public void addVersionNumber()
+        {
+            System.Reflection.Assembly assembly = System.Reflection.Assembly.GetExecutingAssembly();
+            FileVersionInfo versioninfo = FileVersionInfo.GetVersionInfo(assembly.Location);
+
+            this.Text += $" V.{versioninfo.FileVersion }";
         }
 
         /// <summary>
@@ -34,15 +43,14 @@ namespace LeagueOfLegendsAPIWinForms
         /// <returns></returns>
         private async Task CheckForUpdates()
         {
-
-            using (var manager = new UpdateManager(@"D:\Temp\Release"))
+            using (var manager = new UpdateManager(@"https://drive.google.com/uc?export=download&confirm=V1nQ&id=1Ix_uaxaL4HfuyZ89bV1gDLnrTouuIH6-"))
             {
                 await manager.UpdateApp();
             }
         }
         private void SearchSummoner_Click(object sender, EventArgs e)
         {
-            showStats();
+            ShowStats();
         }
 
         /// <summary>
@@ -54,11 +62,11 @@ namespace LeagueOfLegendsAPIWinForms
         {
             if (e.KeyCode == Keys.Enter)
             {
-                showStats();
+                ShowStats();
             }
         }
 
-        private void showStats()
+        private void ShowStats()
         {
             var summonerName = SummonerNameBox.Text;
             var region = ReagionComboBox.Text;
@@ -76,7 +84,7 @@ namespace LeagueOfLegendsAPIWinForms
         /// show stats
         /// </summary>
         /// <param name="name"></param>
-        private void showStats(string name)
+        private void ShowStats(string name)
         {
             var summonerName = name;
             var region = ReagionComboBox.Text;
@@ -91,42 +99,42 @@ namespace LeagueOfLegendsAPIWinForms
         }
         private void ShirooLabel_Click(object sender, EventArgs e)
         {
-            showStats("Shirtzoo");
+            ShowStats("Shîroo");
         }
 
         private void AthiarLabel_Click(object sender, EventArgs e)
         {
-            showStats("raihta");
+            ShowStats("raihta");
         }
 
-        private void hkmatLabel_Click(object sender, EventArgs e)
+        private void HkmatLabel_Click(object sender, EventArgs e)
         {
-            showStats("hkoo94");
+            ShowStats("hkoo94");
         }
 
-        private void sizarLabel_Click(object sender, EventArgs e)
+        private void SizarLabel_Click(object sender, EventArgs e)
         {
-            showStats("Quzzelkort");
+            ShowStats("Quzzelkort");
         }
 
-        private void nawziiiLabel_Click(object sender, EventArgs e)
+        private void NawziiiLabel_Click(object sender, EventArgs e)
         {
-            showStats("Thekurdishwarrio");
+            ShowStats("Thekurdishwarrio");
         }
 
-        private void fouadLabel_Click(object sender, EventArgs e)
+        private void FouadLabel_Click(object sender, EventArgs e)
         {
-            showStats("fouadiii");
+            ShowStats("fouadiii");
         }
 
-        private void zkayLabel_Click(object sender, EventArgs e)
+        private void ZkayLabel_Click(object sender, EventArgs e)
         {
-            showStats("ZeeKai");
+            ShowStats("Carl XVÏ Gustaf");
         }
 
         private void Ejlabel_Click(object sender, EventArgs e)
         {
-            showStats("bahlek");
+            ShowStats("bahlek");
         }
 
     }

@@ -37,7 +37,14 @@ public class ChampionData
     public Spell[] Spells { get; set; }
     public Passive Passive { get; set; }
     public Recommended[] Recommended { get; set; }
+
+    public ChampionData(long key, string[] tags)
+    {
+        Key = key;
+        Tags = tags;
+    }
 }
+
 
 public class Images
 {

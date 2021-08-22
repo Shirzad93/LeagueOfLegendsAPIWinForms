@@ -1,0 +1,1688 @@
+{
+  "type": "champion",
+  "format": "standAloneComplex",
+  "version": "11.9.1",
+  "data": {
+    "Aatrox": {
+      "version": "11.9.1",
+      "id": "Aatrox",
+      "key": "266",
+      "name": "Aatrox",
+      "tags": [
+        "Fighter",
+        "Tank",
+        "Top_Laner"
+      ]
+    },
+    "Ahri": {
+      "version": "11.9.1",
+      "id": "Ahri",
+      "key": "103",
+      "name": "Ahri",
+      "tags": [
+        "Mage",
+        "Assassin",
+        "Mid_Laner"
+      ]
+    },
+    "Akali": {
+      "version": "11.9.1",
+      "id": "Akali",
+      "key": "84",
+      "name": "Akali",
+      "tags": [
+        "Assassin",
+        "Mid_Laner",
+        "Top_Laner"
+      ]
+    },
+    "Alistar": {
+      "version": "11.9.1",
+      "id": "Alistar",
+      "key": "12",
+      "name": "Alistar",
+      "tags": [
+        "Tank",
+        "Support",
+        "Support_Laner"
+      ]
+    },
+    "Amumu": {
+      "version": "11.9.1",
+      "id": "Amumu",
+      "key": "32",
+      "name": "Amumu",
+      "tags": [
+        "Tank",
+        "Mage",
+        "Jungle"
+      ]
+    },
+    "Anivia": {
+      "version": "11.9.1",
+      "id": "Anivia",
+      "key": "34",
+      "name": "Anivia",
+      "tags": [
+        "Mage",
+        "Support",
+        "Mid_Laner"
+      ]
+    },
+    "Annie": {
+      "version": "11.9.1",
+      "id": "Annie",
+      "key": "1",
+      "name": "Annie",
+      "tags": [
+        "Mage",
+        "Mid_Laner"
+      ]
+    },
+    "Aphelios": {
+      "version": "11.9.1",
+      "id": "Aphelios",
+      "key": "523",
+      "name": "Aphelios",
+      "tags": [
+        "Marksman",
+        "ADC"
+      ]
+    },
+    "Ashe": {
+      "version": "11.9.1",
+      "id": "Ashe",
+      "key": "22",
+      "name": "Ashe",
+      "tags": [
+        "Marksman",
+        "Support",
+        "ADC"
+      ]
+    },
+    "AurelionSol": {
+      "version": "11.9.1",
+      "id": "AurelionSol",
+      "key": "136",
+      "name": "Aurelion Sol",
+      "tags": [
+        "Mage",
+        "Mid_Laner"
+      ]
+    },
+    "Azir": {
+      "version": "11.9.1",
+      "id": "Azir",
+      "key": "268",
+      "name": "Azir",
+      "tags": [
+        "Mage",
+        "Marksman",
+        "Mid_Laner"
+      ]
+    },
+    "Bard": {
+      "version": "11.9.1",
+      "id": "Bard",
+      "key": "432",
+      "name": "Bard",
+      "tags": [
+        "Support",
+        "Mage",
+        "Support_Laner"
+      ]
+    },
+    "Blitzcrank": {
+      "version": "11.9.1",
+      "id": "Blitzcrank",
+      "key": "53",
+      "name": "Blitzcrank",
+      "tags": [
+        "Tank",
+        "Fighter",
+        "Support",
+        "Support_Laner"
+      ]
+    },
+    "Brand": {
+      "version": "11.9.1",
+      "id": "Brand",
+      "key": "63",
+      "name": "Brand",
+      "tags": [
+        "Mage",
+        "Support",
+        "Support_Laner"
+      ]
+    },
+    "Braum": {
+      "version": "11.9.1",
+      "id": "Braum",
+      "key": "201",
+      "name": "Braum",
+      "tags": [
+        "Support",
+        "Tank",
+        "Support_Laner"
+      ]
+    },
+    "Caitlyn": {
+      "version": "11.9.1",
+      "id": "Caitlyn",
+      "key": "51",
+      "name": "Caitlyn",
+      "tags": [
+        "Marksman",
+        "ADC"
+      ]
+    },
+    "Camille": {
+      "version": "11.9.1",
+      "id": "Camille",
+      "key": "164",
+      "name": "Camille",
+      "tags": [
+        "Fighter",
+        "Tank",
+        "Top_Laner"
+      ]
+    },
+    "Cassiopeia": {
+      "version": "11.9.1",
+      "id": "Cassiopeia",
+      "key": "69",
+      "name": "Cassiopeia",
+      "tags": [
+        "Mage",
+        "Mid_Laner"
+      ]
+    },
+    "Chogath": {
+      "version": "11.9.1",
+      "id": "Chogath",
+      "key": "31",
+      "name": "Cho'Gath",
+      "tags": [
+        "Tank",
+        "Mage",
+        "Top_Laner"
+      ]
+    },
+    "Corki": {
+      "version": "11.9.1",
+      "id": "Corki",
+      "key": "42",
+      "name": "Corki",
+      "tags": [
+        "Marksman",
+        "Mid_Laner"
+      ]
+    },
+    "Darius": {
+      "version": "11.9.1",
+      "id": "Darius",
+      "key": "122",
+      "name": "Darius",
+      "tags": [
+        "Fighter",
+        "Tank",
+        "Top_Laner"
+      ]
+    },
+    "Diana": {
+      "version": "11.9.1",
+      "id": "Diana",
+      "key": "131",
+      "name": "Diana",
+      "tags": [
+        "Fighter",
+        "Mage",
+        "Mid_Laner"
+      ]
+    },
+    "Draven": {
+      "version": "11.9.1",
+      "id": "Draven",
+      "key": "119",
+      "name": "Draven",
+      "tags": [
+        "Marksman",
+        "ADC"
+      ]
+    },
+    "DrMundo": {
+      "version": "11.9.1",
+      "id": "DrMundo",
+      "key": "36",
+      "name": "Dr. Mundo",
+      "tags": [
+        "Fighter",
+        "Tank",
+        "Top_Laner"
+      ]
+    },
+    "Ekko": {
+      "version": "11.9.1",
+      "id": "Ekko",
+      "key": "245",
+      "name": "Ekko",
+      "tags": [
+        "Assassin",
+        "Fighter",
+        "Mid_Laner",
+        "Jungle"
+      ]
+    },
+    "Elise": {
+      "version": "11.9.1",
+      "id": "Elise",
+      "key": "60",
+      "name": "Elise",
+      "tags": [
+        "Mage",
+        "Fighter",
+        "Jungle"
+      ]
+    },
+    "Evelynn": {
+      "version": "11.9.1",
+      "id": "Evelynn",
+      "key": "28",
+      "name": "Evelynn",
+      "tags": [
+        "Assassin",
+        "Mage",
+        "Jungle"
+      ]
+    },
+    "Ezreal": {
+      "version": "11.9.1",
+      "id": "Ezreal",
+      "key": "81",
+      "name": "Ezreal",
+      "tags": [
+        "Marksman",
+        "Mage",
+        "ADC"
+      ]
+    },
+    "Fiddlesticks": {
+      "version": "11.9.1",
+      "id": "Fiddlesticks",
+      "key": "9",
+      "name": "Fiddlesticks",
+      "tags": [
+        "Mage",
+        "Jungle"
+      ]
+    },
+    "Fiora": {
+      "version": "11.9.1",
+      "id": "Fiora",
+      "key": "114",
+      "name": "Fiora",
+      "tags": [
+        "Fighter",
+        "Assassin",
+        "Top_Laner"
+      ]
+    },
+    "Fizz": {
+      "version": "11.9.1",
+      "id": "Fizz",
+      "key": "105",
+      "name": "Fizz",
+      "tags": [
+        "Assassin",
+        "Fighter",
+        "Mid_Laner"
+      ]
+    },
+    "Galio": {
+      "version": "11.9.1",
+      "id": "Galio",
+      "key": "3",
+      "name": "Galio",
+      "tags": [
+        "Tank",
+        "Mage",
+        "Support_Laner",
+        "Mid_laner"
+      ]
+    },
+    "Gangplank": {
+      "version": "11.9.1",
+      "id": "Gangplank",
+      "key": "41",
+      "name": "Gangplank",
+      "tags": [
+        "Fighter",
+        "Top_Laner"
+      ]
+    },
+    "Garen": {
+      "version": "11.9.1",
+      "id": "Garen",
+      "key": "86",
+      "name": "Garen",
+      "tags": [
+        "Fighter",
+        "Tank",
+        "Top_Laner"
+      ]
+    },
+    "Gnar": {
+      "version": "11.9.1",
+      "id": "Gnar",
+      "key": "150",
+      "name": "Gnar",
+      "tags": [
+        "Fighter",
+        "Tank",
+        "Top_Laner"
+      ]
+    },
+    "Gragas": {
+      "version": "11.9.1",
+      "id": "Gragas",
+      "key": "79",
+      "name": "Gragas",
+      "tags": [
+        "Fighter",
+        "Mage",
+        "Jungle"
+      ]
+    },
+    "Graves": {
+      "version": "11.9.1",
+      "id": "Graves",
+      "key": "104",
+      "name": "Graves",
+      "tags": [
+        "Marksman",
+        "Jungle"
+      ]
+    },
+    "Gwen": {
+      "version": "11.9.1",
+      "id": "Gwen",
+      "key": "887",
+      "name": "Gwen",
+      "tags": [
+        "Fighter",
+        "Assassin",
+        "Mid_Laner"
+      ]
+    },
+    "Hecarim": {
+      "version": "11.9.1",
+      "id": "Hecarim",
+      "key": "120",
+      "name": "Hecarim",
+      "tags": [
+        "Fighter",
+        "Tank",
+        "Jungle"
+      ]
+    },
+    "Heimerdinger": {
+      "version": "11.9.1",
+      "id": "Heimerdinger",
+      "key": "74",
+      "name": "Heimerdinger",
+      "tags": [
+        "Mage",
+        "Support",
+        "Mid_Laner"
+      ]
+    },
+    "Illaoi": {
+      "version": "11.9.1",
+      "id": "Illaoi",
+      "key": "420",
+      "name": "Illaoi",
+      "tags": [
+        "Fighter",
+        "Tank",
+        "Top_Laner"
+      ]
+    },
+    "Irelia": {
+      "version": "11.9.1",
+      "id": "Irelia",
+      "key": "39",
+      "name": "Irelia",
+      "tags": [
+        "Fighter",
+        "Assassin",
+        "Top_Laner",
+        "Mid_Laner"
+      ]
+    },
+    "Ivern": {
+      "version": "11.9.1",
+      "id": "Ivern",
+      "key": "427",
+      "name": "Ivern",
+      "tags": [
+        "Support",
+        "Mage",
+        "Jungle"
+      ]
+    },
+    "Janna": {
+      "version": "11.9.1",
+      "id": "Janna",
+      "key": "40",
+      "name": "Janna",
+      "tags": [
+        "Support",
+        "Mage",
+        "Support_Laner"
+      ]
+    },
+    "JarvanIV": {
+      "version": "11.9.1",
+      "id": "JarvanIV",
+      "key": "59",
+      "name": "Jarvan IV",
+      "tags": [
+        "Tank",
+        "Fighter",
+        "Jungle"
+      ]
+    },
+    "Jax": {
+      "version": "11.9.1",
+      "id": "Jax",
+      "key": "24",
+      "name": "Jax",
+      "tags": [
+        "Fighter",
+        "Assassin",
+        "Top_Laner"
+      ]
+    },
+    "Jayce": {
+      "version": "11.9.1",
+      "id": "Jayce",
+      "key": "126",
+      "name": "Jayce",
+      "tags": [
+        "Fighter",
+        "Marksman",
+        "Top_laner"
+      ]
+    },
+    "Jhin": {
+      "version": "11.9.1",
+      "id": "Jhin",
+      "key": "202",
+      "name": "Jhin",
+      "tags": [
+        "Marksman",
+        "Mage",
+        "ADC"
+      ]
+    },
+    "Jinx": {
+      "version": "11.9.1",
+      "id": "Jinx",
+      "key": "222",
+      "name": "Jinx",
+      "tags": [
+        "Marksman",
+        "ADC"
+      ]
+    },
+    "Kaisa": {
+      "version": "11.9.1",
+      "id": "Kaisa",
+      "key": "145",
+      "name": "Kai'Sa",
+      "tags": [
+        "Marksman",
+        "ADC"
+      ]
+    },
+    "Kalista": {
+      "version": "11.9.1",
+      "id": "Kalista",
+      "key": "429",
+      "name": "Kalista",
+      "tags": [
+        "Marksman",
+        "ADC"
+      ]
+    },
+    "Karma": {
+      "version": "11.9.1",
+      "id": "Karma",
+      "key": "43",
+      "name": "Karma",
+      "tags": [
+        "Mage",
+        "Support",
+        "Support_Laner"
+      ]
+    },
+    "Karthus": {
+      "version": "11.9.1",
+      "id": "Karthus",
+      "key": "30",
+      "name": "Karthus",
+      "tags": [
+        "Mage",
+        "Jungle"
+      ]
+    },
+    "Kassadin": {
+      "version": "11.9.1",
+      "id": "Kassadin",
+      "key": "38",
+      "name": "Kassadin",
+      "tags": [
+        "Assassin",
+        "Mage",
+        "Mid_Laner"
+      ]
+    },
+    "Katarina": {
+      "version": "11.9.1",
+      "id": "Katarina",
+      "key": "55",
+      "name": "Katarina",
+      "tags": [
+        "Assassin",
+        "Mage",
+        "Mid_Laner"
+      ]
+    },
+    "Kayle": {
+      "version": "11.9.1",
+      "id": "Kayle",
+      "key": "10",
+      "name": "Kayle",
+      "tags": [
+        "Fighter",
+        "Support",
+        "Top_Laner"
+      ]
+    },
+    "Kayn": {
+      "version": "11.9.1",
+      "id": "Kayn",
+      "key": "141",
+      "name": "Kayn",
+      "tags": [
+        "Fighter",
+        "Assassin",
+        "Jungle"
+      ]
+    },
+    "Kennen": {
+      "version": "11.9.1",
+      "id": "Kennen",
+      "key": "85",
+      "name": "Kennen",
+      "tags": [
+        "Mage",
+        "Marksman",
+        "Top_Laner"
+      ]
+    },
+    "Khazix": {
+      "version": "11.9.1",
+      "id": "Khazix",
+      "key": "121",
+      "name": "Kha'Zix",
+      "tags": [
+        "Assassin",
+        "Jungle"
+      ]
+    },
+    "Kindred": {
+      "version": "11.9.1",
+      "id": "Kindred",
+      "key": "203",
+      "name": "Kindred",
+      "tags": [
+        "Marksman",
+        "Jungle"
+      ]
+    },
+    "Kled": {
+      "version": "11.9.1",
+      "id": "Kled",
+      "key": "240",
+      "name": "Kled",
+      "tags": [
+        "Fighter",
+        "Tank",
+        "Top_Laner"
+      ]
+    },
+    "KogMaw": {
+      "version": "11.9.1",
+      "id": "KogMaw",
+      "key": "96",
+      "name": "Kog'Maw",
+      "tags": [
+        "Marksman",
+        "Mage",
+        "ADC"
+      ]
+    },
+    "Leblanc": {
+      "version": "11.9.1",
+      "id": "Leblanc",
+      "key": "7",
+      "name": "LeBlanc",
+      "tags": [
+        "Assassin",
+        "Mage",
+        "Mid_Laner"
+      ]
+    },
+    "LeeSin": {
+      "version": "11.9.1",
+      "id": "LeeSin",
+      "key": "64",
+      "name": "Lee Sin",
+      "tags": [
+        "Fighter",
+        "Assassin",
+        "Jungle"
+      ]
+    },
+    "Leona": {
+      "version": "11.9.1",
+      "id": "Leona",
+      "key": "89",
+      "name": "Leona",
+      "tags": [
+        "Tank",
+        "Support",
+        "Support_Laner"
+      ]
+    },
+    "Lillia": {
+      "version": "11.9.1",
+      "id": "Lillia",
+      "key": "876",
+      "name": "Lillia",
+      "tags": [
+        "Fighter",
+        "Mage",
+        "Jungle"
+      ]
+    },
+    "Lissandra": {
+      "version": "11.9.1",
+      "id": "Lissandra",
+      "key": "127",
+      "name": "Lissandra",
+      "tags": [
+        "Mage",
+        "Mid_Laner"
+      ]
+    },
+    "Lucian": {
+      "version": "11.9.1",
+      "id": "Lucian",
+      "key": "236",
+      "name": "Lucian",
+      "tags": [
+        "Marksman",
+        "ADC"
+      ]
+    },
+    "Lulu": {
+      "version": "11.9.1",
+      "id": "Lulu",
+      "key": "117",
+      "name": "Lulu",
+      "tags": [
+        "Support",
+        "Mage",
+        "Support_Laner"
+      ]
+    },
+    "Lux": {
+      "version": "11.9.1",
+      "id": "Lux",
+      "key": "99",
+      "name": "Lux",
+      "tags": [
+        "Mage",
+        "Support",
+        "Support_Laner",
+        "Mid_Laner"
+      ]
+    },
+    "Malphite": {
+      "version": "11.9.1",
+      "id": "Malphite",
+      "key": "54",
+      "name": "Malphite",
+      "tags": [
+        "Tank",
+        "Fighter",
+        "Top_Laner"
+      ]
+    },
+    "Malzahar": {
+      "version": "11.9.1",
+      "id": "Malzahar",
+      "key": "90",
+      "name": "Malzahar",
+      "tags": [
+        "Mage",
+        "Assassin",
+        "Mid_Laner"
+      ]
+    },
+    "Maokai": {
+      "version": "11.9.1",
+      "id": "Maokai",
+      "key": "57",
+      "name": "Maokai",
+      "tags": [
+        "Tank",
+        "Mage",
+        "Support_Laner"
+      ]
+    },
+    "MasterYi": {
+      "version": "11.9.1",
+      "id": "MasterYi",
+      "key": "11",
+      "name": "Master Yi",
+      "tags": [
+        "Assassin",
+        "Fighter",
+        "Jungle"
+      ]
+    },
+    "MissFortune": {
+      "version": "11.9.1",
+      "id": "MissFortune",
+      "key": "21",
+      "name": "Miss Fortune",
+      "tags": [
+        "Marksman",
+        "ADC"
+      ]
+    },
+    "MonkeyKing": {
+      "version": "11.9.1",
+      "id": "MonkeyKing",
+      "key": "62",
+      "name": "Wukong",
+      "tags": [
+        "Fighter",
+        "Tank",
+        "Top_Laner"
+      ]
+    },
+    "Mordekaiser": {
+      "version": "11.9.1",
+      "id": "Mordekaiser",
+      "key": "82",
+      "name": "Mordekaiser",
+      "tags": [
+        "Fighter",
+        "Top_Laner"
+      ]
+    },
+    "Morgana": {
+      "version": "11.9.1",
+      "id": "Morgana",
+      "key": "25",
+      "name": "Morgana",
+      "tags": [
+        "Mage",
+        "Support",
+        "Support_Laner"
+      ]
+    },
+    "Nami": {
+      "version": "11.9.1",
+      "id": "Nami",
+      "key": "267",
+      "name": "Nami",
+      "tags": [
+        "Support",
+        "Mage",
+        "Support_Laner"
+      ]
+    },
+    "Nasus": {
+      "version": "11.9.1",
+      "id": "Nasus",
+      "key": "75",
+      "name": "Nasus",
+      "tags": [
+        "Fighter",
+        "Tank",
+        "Top_Laner"
+      ]
+    },
+    "Nautilus": {
+      "version": "11.9.1",
+      "id": "Nautilus",
+      "key": "111",
+      "name": "Nautilus",
+      "tags": [
+        "Tank",
+        "Fighter",
+        "Support_Laner"
+      ]
+    },
+    "Neeko": {
+      "version": "11.9.1",
+      "id": "Neeko",
+      "key": "518",
+      "name": "Neeko",
+      "tags": [
+        "Mage",
+        "Support",
+        "Mid_Laner"
+      ]
+    },
+    "Nidalee": {
+      "version": "11.9.1",
+      "id": "Nidalee",
+      "key": "76",
+      "name": "Nidalee",
+      "tags": [
+        "Assassin",
+        "Mage",
+        "Jungle"
+      ]
+    },
+    "Nocturne": {
+      "version": "11.9.1",
+      "id": "Nocturne",
+      "key": "56",
+      "name": "Nocturne",
+      "tags": [
+        "Assassin",
+        "Fighter",
+        "Jungle"
+      ]
+    },
+    "Nunu": {
+      "version": "11.9.1",
+      "id": "Nunu",
+      "key": "20",
+      "name": "Nunu & Willump",
+      "tags": [
+        "Tank",
+        "Fighter",
+        "Jungle"
+      ]
+    },
+    "Olaf": {
+      "version": "11.9.1",
+      "id": "Olaf",
+      "key": "2",
+      "name": "Olaf",
+      "tags": [
+        "Fighter",
+        "Tank",
+        "Jungle"
+      ]
+    },
+    "Orianna": {
+      "version": "11.9.1",
+      "id": "Orianna",
+      "key": "61",
+      "name": "Orianna",
+      "tags": [
+        "Mage",
+        "Support",
+        "Mid_laner"
+      ]
+    },
+    "Ornn": {
+      "version": "11.9.1",
+      "id": "Ornn",
+      "key": "516",
+      "name": "Ornn",
+      "tags": [
+        "Tank",
+        "Fighter",
+        "Top_Laner"
+      ]
+    },
+    "Pantheon": {
+      "version": "11.9.1",
+      "id": "Pantheon",
+      "key": "80",
+      "name": "Pantheon",
+      "tags": [
+        "Fighter",
+        "Assassin",
+        "Top_Laner",
+        "Support_Laner",
+        "Jungle"
+      ]
+    },
+    "Poppy": {
+      "version": "11.9.1",
+      "id": "Poppy",
+      "key": "78",
+      "name": "Poppy",
+      "tags": [
+        "Tank",
+        "Fighter",
+        "Top_Laner",
+        "Jungle"
+      ]
+    },
+    "Pyke": {
+      "version": "11.9.1",
+      "id": "Pyke",
+      "key": "555",
+      "name": "Pyke",
+      "tags": [
+        "Support",
+        "Assassin",
+        "Support_Laner"
+      ]
+    },
+    "Qiyana": {
+      "version": "11.9.1",
+      "id": "Qiyana",
+      "key": "246",
+      "name": "Qiyana",
+      "tags": [
+        "Assassin",
+        "Fighter",
+        "Mid_Laner"
+      ]
+    },
+    "Quinn": {
+      "version": "11.9.1",
+      "id": "Quinn",
+      "key": "133",
+      "name": "Quinn",
+      "tags": [
+        "Marksman",
+        "Assassin",
+        "Top_Laner"
+      ]
+    },
+    "Rakan": {
+      "version": "11.9.1",
+      "id": "Rakan",
+      "key": "497",
+      "name": "Rakan",
+      "tags": [
+        "Support",
+        "Support_Laner"
+      ]
+    },
+    "Rammus": {
+      "version": "11.9.1",
+      "id": "Rammus",
+      "key": "33",
+      "name": "Rammus",
+      "tags": [
+        "Tank",
+        "Fighter",
+        "Jungle"
+      ]
+    },
+    "RekSai": {
+      "version": "11.9.1",
+      "id": "RekSai",
+      "key": "421",
+      "name": "Rek'Sai",
+      "tags": [
+        "Fighter",
+        "Jungle"
+      ]
+    },
+    "Rell": {
+      "version": "11.9.1",
+      "id": "Rell",
+      "key": "526",
+      "name": "Rell",
+      "tags": [
+        "Tank",
+        "Support_Laner"
+      ]
+    },
+    "Renekton": {
+      "version": "11.9.1",
+      "id": "Renekton",
+      "key": "58",
+      "name": "Renekton",
+      "tags": [
+        "Fighter",
+        "Tank",
+        "Top_Laner"
+      ]
+    },
+    "Rengar": {
+      "version": "11.9.1",
+      "id": "Rengar",
+      "key": "107",
+      "name": "Rengar",
+      "tags": [
+        "Assassin",
+        "Fighter",
+        "Jungle"
+      ]
+    },
+    "Riven": {
+      "version": "11.9.1",
+      "id": "Riven",
+      "key": "92",
+      "name": "Riven",
+      "tags": [
+        "Fighter",
+        "Assassin",
+        "Top_Laner"
+      ]
+    },
+    "Rumble": {
+      "version": "11.9.1",
+      "id": "Rumble",
+      "key": "68",
+      "name": "Rumble",
+      "tags": [
+        "Fighter",
+        "Mage",
+        "Mid_Laner"
+      ]
+    },
+    "Ryze": {
+      "version": "11.9.1",
+      "id": "Ryze",
+      "key": "13",
+      "name": "Ryze",
+      "tags": [
+        "Mage",
+        "Fighter",
+        "Mid_Laner"
+      ]
+    },
+    "Samira": {
+      "version": "11.9.1",
+      "id": "Samira",
+      "key": "360",
+      "name": "Samira",
+      "tags": [
+        "Marksman",
+        "ADC"
+      ]
+    },
+    "Sejuani": {
+      "version": "11.9.1",
+      "id": "Sejuani",
+      "key": "113",
+      "name": "Sejuani",
+      "tags": [
+        "Tank",
+        "Fighter",
+        "Jungle"
+      ]
+    },
+    "Senna": {
+      "version": "11.9.1",
+      "id": "Senna",
+      "key": "235",
+      "name": "Senna",
+      "tags": [
+        "Marksman",
+        "Support",
+        "Support_Laner"
+      ]
+    },
+    "Seraphine": {
+      "version": "11.9.1",
+      "id": "Seraphine",
+      "key": "147",
+      "name": "Seraphine",
+      "tags": [
+        "Mage",
+        "Support",
+        "Support_Laner"
+      ]
+    },
+    "Sett": {
+      "version": "11.9.1",
+      "id": "Sett",
+      "key": "875",
+      "name": "Sett",
+      "tags": [
+        "Fighter",
+        "Tank",
+        "Top_Laner"
+      ]
+    },
+    "Shaco": {
+      "version": "11.9.1",
+      "id": "Shaco",
+      "key": "35",
+      "name": "Shaco",
+      "tags": [
+        "Assassin",
+        "Jungle"
+      ]
+    },
+    "Shen": {
+      "version": "11.9.1",
+      "id": "Shen",
+      "key": "98",
+      "name": "Shen",
+      "tags": [
+        "Tank",
+        "Top_Laner"
+      ]
+    },
+    "Shyvana": {
+      "version": "11.9.1",
+      "id": "Shyvana",
+      "key": "102",
+      "name": "Shyvana",
+      "tags": [
+        "Fighter",
+        "Tank",
+        "Jungle"
+      ]
+    },
+    "Singed": {
+      "version": "11.9.1",
+      "id": "Singed",
+      "key": "27",
+      "name": "Singed",
+      "tags": [
+        "Tank",
+        "Fighter",
+        "Top_Laner"
+      ]
+    },
+    "Sion": {
+      "version": "11.9.1",
+      "id": "Sion",
+      "key": "14",
+      "name": "Sion",
+      "tags": [
+        "Tank",
+        "Fighter",
+        "Top_Laner"
+      ]
+    },
+    "Sivir": {
+      "version": "11.9.1",
+      "id": "Sivir",
+      "key": "15",
+      "name": "Sivir",
+      "tags": [
+        "Marksman",
+        "ADC"
+      ]
+    },
+    "Skarner": {
+      "version": "11.9.1",
+      "id": "Skarner",
+      "key": "72",
+      "name": "Skarner",
+      "tags": [
+        "Fighter",
+        "Tank",
+        "Jungle"
+      ]
+    },
+    "Sona": {
+      "version": "11.9.1",
+      "id": "Sona",
+      "key": "37",
+      "name": "Sona",
+      "tags": [
+        "Support",
+        "Mage",
+        "Support_Laner"
+      ]
+    },
+    "Soraka": {
+      "version": "11.9.1",
+      "id": "Soraka",
+      "key": "16",
+      "name": "Soraka",
+      "tags": [
+        "Support",
+        "Mage",
+        "Support_Laner"
+      ]
+    },
+    "Swain": {
+      "version": "11.9.1",
+      "id": "Swain",
+      "key": "50",
+      "name": "Swain",
+      "tags": [
+        "Mage",
+        "Fighter",
+        "Top_Laner",
+        "Support_Laner"
+      ]
+    },
+    "Sylas": {
+      "version": "11.9.1",
+      "id": "Sylas",
+      "key": "517",
+      "name": "Sylas",
+      "tags": [
+        "Mage",
+        "Assassin",
+        "Mid_Laner"
+      ]
+    },
+    "Syndra": {
+      "version": "11.9.1",
+      "id": "Syndra",
+      "key": "134",
+      "name": "Syndra",
+      "tags": [
+        "Mage",
+        "Support",
+        "Mid_Laner"
+      ]
+    },
+    "TahmKench": {
+      "version": "11.9.1",
+      "id": "TahmKench",
+      "key": "223",
+      "name": "Tahm Kench",
+      "tags": [
+        "Support",
+        "Tank",
+        "Top_Laner"
+      ]
+    },
+    "Taliyah": {
+      "version": "11.9.1",
+      "id": "Taliyah",
+      "key": "163",
+      "name": "Taliyah",
+      "tags": [
+        "Mage",
+        "Support",
+        "Jungle"
+      ]
+    },
+    "Talon": {
+      "version": "11.9.1",
+      "id": "Talon",
+      "key": "91",
+      "name": "Talon",
+      "tags": [
+        "Assassin",
+        "Mid_Laner"
+      ]
+    },
+    "Taric": {
+      "version": "11.9.1",
+      "id": "Taric",
+      "key": "44",
+      "name": "Taric",
+      "tags": [
+        "Support",
+        "Fighter",
+        "Support"
+      ]
+    },
+    "Teemo": {
+      "version": "11.9.1",
+      "id": "Teemo",
+      "key": "17",
+      "name": "Teemo",
+      "tags": [
+        "Marksman",
+        "Assassin",
+        "Top_Laner"
+      ]
+    },
+    "Thresh": {
+      "version": "11.9.1",
+      "id": "Thresh",
+      "key": "412",
+      "name": "Thresh",
+      "tags": [
+        "Support",
+        "Fighter",
+        "Support_Laner"
+      ]
+    },
+    "Tristana": {
+      "version": "11.9.1",
+      "id": "Tristana",
+      "key": "18",
+      "name": "Tristana",
+      "tags": [
+        "Marksman",
+        "Assassin",
+        "ADC"
+      ]
+    },
+    "Trundle": {
+      "version": "11.9.1",
+      "id": "Trundle",
+      "key": "48",
+      "name": "Trundle",
+      "tags": [
+        "Fighter",
+        "Tank",
+        "Jungle"
+      ]
+    },
+    "Tryndamere": {
+      "version": "11.9.1",
+      "id": "Tryndamere",
+      "key": "23",
+      "name": "Tryndamere",
+      "tags": [
+        "Fighter",
+        "Assassin",
+        "Top_Laner"
+      ]
+    },
+    "TwistedFate": {
+      "version": "11.9.1",
+      "id": "TwistedFate",
+      "key": "4",
+      "name": "Twisted Fate",
+      "tags": [
+        "Mage",
+        "Mid_Laner"
+      ]
+    },
+    "Twitch": {
+      "version": "11.9.1",
+      "id": "Twitch",
+      "key": "29",
+      "name": "Twitch",
+      "tags": [
+        "Marksman",
+        "Assassin",
+        "ADC"
+      ]
+    },
+    "Udyr": {
+      "version": "11.9.1",
+      "id": "Udyr",
+      "key": "77",
+      "name": "Udyr",
+      "tags": [
+        "Fighter",
+        "Tank",
+        "Jungle"
+      ]
+    },
+    "Urgot": {
+      "version": "11.9.1",
+      "id": "Urgot",
+      "key": "6",
+      "name": "Urgot",
+      "tags": [
+        "Fighter",
+        "Tank",
+        "Top_Laner"
+      ]
+    },
+    "Varus": {
+      "version": "11.9.1",
+      "id": "Varus",
+      "key": "110",
+      "name": "Varus",
+      "tags": [
+        "Marksman",
+        "Mage",
+        "ADC"
+      ]
+    },
+    "Vayne": {
+      "version": "11.9.1",
+      "id": "Vayne",
+      "key": "67",
+      "name": "Vayne",
+      "tags": [
+        "Marksman",
+        "Assassin",
+        "ADC",
+        "Top_Laner"
+      ]
+    },
+    "Veigar": {
+      "version": "11.9.1",
+      "id": "Veigar",
+      "key": "45",
+      "name": "Veigar",
+      "tags": [
+        "Mage",
+        "Mid_Laner"
+      ]
+    },
+    "Velkoz": {
+      "version": "11.9.1",
+      "id": "Velkoz",
+      "key": "161",
+      "name": "Vel'Koz",
+      "tags": [
+        "Mage",
+        "Mid_Laner"
+      ]
+    },
+    "Vi": {
+      "version": "11.9.1",
+      "id": "Vi",
+      "key": "254",
+      "name": "Vi",
+      "tags": [
+        "Fighter",
+        "Assassin",
+        "Jungle"
+      ]
+    },
+    "Viego": {
+      "version": "11.9.1",
+      "id": "Viego",
+      "key": "234",
+      "name": "Viego",
+      "tags": [
+        "Assassin",
+        "Fighter",
+        "Mid_Laner",
+        "Jungle"
+      ]
+    },
+    "Viktor": {
+      "version": "11.9.1",
+      "id": "Viktor",
+      "key": "112",
+      "name": "Viktor",
+      "tags": [
+        "Mage",
+        "Mid_Laner"
+      ]
+    },
+    "Vladimir": {
+      "version": "11.9.1",
+      "id": "Vladimir",
+      "key": "8",
+      "name": "Vladimir",
+      "tags": [
+        "Mage",
+        "Mid_Laner"
+      ]
+    },
+    "Volibear": {
+      "version": "11.9.1",
+      "id": "Volibear",
+      "key": "106",
+      "name": "Volibear",
+      "tags": [
+        "Fighter",
+        "Tank",
+        "Top_Laner",
+        "Jungle"
+      ]
+    },
+    "Warwick": {
+      "version": "11.9.1",
+      "id": "Warwick",
+      "key": "19",
+      "name": "Warwick",
+      "tags": [
+        "Fighter",
+        "Tank",
+        "Jungle"
+      ]
+    },
+    "Xayah": {
+      "version": "11.9.1",
+      "id": "Xayah",
+      "key": "498",
+      "name": "Xayah",
+      "tags": [
+        "Marksman",
+        "ADC"
+      ]
+    },
+    "Xerath": {
+      "version": "11.9.1",
+      "id": "Xerath",
+      "key": "101",
+      "name": "Xerath",
+      "tags": [
+        "Mage",
+        "Mid_Laner"
+      ]
+    },
+    "XinZhao": {
+      "version": "11.9.1",
+      "id": "XinZhao",
+      "key": "5",
+      "name": "Xin Zhao",
+      "tags": [
+        "Fighter",
+        "Assassin",
+        "Jungle"
+      ]
+    },
+    "Yasuo": {
+      "version": "11.9.1",
+      "id": "Yasuo",
+      "key": "157",
+      "name": "Yasuo",
+      "tags": [
+        "Fighter",
+        "Assassin",
+        "Mid_Laner"
+      ]
+    },
+    "Yone": {
+      "version": "11.9.1",
+      "id": "Yone",
+      "key": "777",
+      "name": "Yone",
+      "tags": [
+        "Assassin",
+        "Fighter",
+        "Mid_Laner",
+        "Top_Laner"
+      ]
+    },
+    "Yorick": {
+      "version": "11.9.1",
+      "id": "Yorick",
+      "key": "83",
+      "name": "Yorick",
+      "tags": [
+        "Fighter",
+        "Tank",
+        "Top_Laner"
+      ]
+    },
+    "Yuumi": {
+      "version": "11.9.1",
+      "id": "Yuumi",
+      "key": "350",
+      "name": "Yuumi",
+      "tags": [
+        "Support",
+        "Mage",
+        "Support_Laner"
+      ]
+    },
+    "Zac": {
+      "version": "11.9.1",
+      "id": "Zac",
+      "key": "154",
+      "name": "Zac",
+      "tags": [
+        "Tank",
+        "Fighter",
+        "Jungle"
+      ]
+    },
+    "Zed": {
+      "version": "11.9.1",
+      "id": "Zed",
+      "key": "238",
+      "name": "Zed",
+      "tags": [
+        "Assassin",
+        "Mid_Laner"
+      ]
+    },
+    "Ziggs": {
+      "version": "11.9.1",
+      "id": "Ziggs",
+      "key": "115",
+      "name": "Ziggs",
+      "tags": [
+        "Mage",
+        "Mid_Laner"
+      ]
+    },
+    "Zilean": {
+      "version": "11.9.1",
+      "id": "Zilean",
+      "key": "26",
+      "name": "Zilean",
+      "tags": [
+        "Support",
+        "Mage",
+        "Support_Laner"
+      ]
+    },
+    "Zoe": {
+      "version": "11.9.1",
+      "id": "Zoe",
+      "key": "142",
+      "name": "Zoe",
+      "tags": [
+        "Mage",
+        "Support",
+        "Mid_Laner"
+      ]
+    },
+    "Zyra": {
+      "version": "11.9.1",
+      "id": "Zyra",
+      "key": "143",
+      "name": "Zyra",
+      "tags": [
+        "Mage",
+        "Support",
+        "Support_Laner"
+      ]
+    }
+  }
+}

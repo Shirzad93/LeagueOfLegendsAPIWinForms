@@ -121,4 +121,22 @@
   <data name="league-of-legends_logo" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\league-of-legends_logo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="all pos" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\all pos.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Position_Gold-Bot" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Position_Gold-Bot.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Position_Gold-Jungle" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Position_Gold-Jungle.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Position_Gold-Mid" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Position_Gold-Mid.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Position_Gold-Support" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Position_Gold-Support.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Position_Gold-Top" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Position_Gold-Top.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
 </root>
