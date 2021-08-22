@@ -17,6 +17,7 @@ namespace LeagueOfLegendsAPIWinForms
 {
     public partial class MainForm : Form
     {
+        UpdateManager manager;
         public MainForm()
         {
             InitializeComponent();
@@ -25,8 +26,8 @@ namespace LeagueOfLegendsAPIWinForms
 
             SummonerNameBox.Select();
             addVersionNumber();
-            CheckForUpdates();
-
+            //CheckForUpdates();
+            updateApp();
         }
 
         public void addVersionNumber()
@@ -35,19 +36,24 @@ namespace LeagueOfLegendsAPIWinForms
             FileVersionInfo versioninfo = FileVersionInfo.GetVersionInfo(assembly.Location);
 
             this.Text += $" V.{versioninfo.FileVersion }";
+            VersionNumber.Text = $" Shiroo V.{versioninfo.FileVersion }";
         }
 
         /// <summary>
         /// in progress
         /// </summary>
         /// <returns></returns>
-        private async Task CheckForUpdates()
+        private async Task updateApp()
         {
-            using (var manager = new UpdateManager(@"https://drive.google.com/uc?export=download&confirm=V1nQ&id=1Ix_uaxaL4HfuyZ89bV1gDLnrTouuIH6-"))
-            {
-                await manager.UpdateApp();
-            }
+            manager = await UpdateManager.GitHubUpdateManager(@"https://github.com/Shirzad93/LeagueOfLegendsAPIWinForms");
+
+            //using (var manager = new UpdateManager(@"https://github.com/Shirzad93/LeagueOfLegendsAPIWinForms"))
+            //{
+            //    await manager.UpdateApp();
+            //}
         }
+
+
         private void SearchSummoner_Click(object sender, EventArgs e)
         {
             ShowStats();

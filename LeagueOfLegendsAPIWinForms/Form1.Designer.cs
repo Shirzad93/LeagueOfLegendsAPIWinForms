@@ -35,7 +35,7 @@
             this.SearchSummoner = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
-            this.label3 = new System.Windows.Forms.Label();
+            this.VersionNumber = new System.Windows.Forms.Label();
             this.ShirooLabel = new System.Windows.Forms.Label();
             this.AthiarLabel = new System.Windows.Forms.Label();
             this.hkmatLabel = new System.Windows.Forms.Label();
@@ -119,14 +119,13 @@
             this.flowLayoutPanel1.Size = new System.Drawing.Size(292, 248);
             this.flowLayoutPanel1.TabIndex = 6;
             // 
-            // label3
+            // VersionNumber
             // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(12, 9);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(70, 13);
-            this.label3.TabIndex = 7;
-            this.label3.Text = "Shiroo v1.0.8";
+            this.VersionNumber.AutoSize = true;
+            this.VersionNumber.Location = new System.Drawing.Point(12, 9);
+            this.VersionNumber.Name = "VersionNumber";
+            this.VersionNumber.Size = new System.Drawing.Size(0, 13);
+            this.VersionNumber.TabIndex = 7;
             // 
             // ShirooLabel
             // 
@@ -261,7 +260,7 @@
             this.Controls.Add(this.sizarLabel);
             this.Controls.Add(this.AthiarLabel);
             this.Controls.Add(this.ShirooLabel);
-            this.Controls.Add(this.label3);
+            this.Controls.Add(this.VersionNumber);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.SearchSummoner);
             this.Controls.Add(this.ReagionComboBox);
@@ -291,7 +290,7 @@
         private System.Windows.Forms.Button SearchSummoner;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel1;
-        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Label VersionNumber;
         private System.Windows.Forms.Label ShirooLabel;
         private System.Windows.Forms.Label AthiarLabel;
         private System.Windows.Forms.Label hkmatLabel;
