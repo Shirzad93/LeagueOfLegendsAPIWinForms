@@ -136,7 +136,7 @@ namespace LeagueOfLegendsAPIWinForms
 
         private void Ejlabel_Click(object sender, EventArgs e)
         {
-            ShowStats("bahlek");
+            ShowStats("orkadus");
         }
 
     }

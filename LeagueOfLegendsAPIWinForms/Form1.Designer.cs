@@ -234,9 +234,9 @@
             this.Bahleklabel.ForeColor = System.Drawing.Color.Black;
             this.Bahleklabel.Location = new System.Drawing.Point(278, 543);
             this.Bahleklabel.Name = "Bahleklabel";
-            this.Bahleklabel.Size = new System.Drawing.Size(67, 24);
+            this.Bahleklabel.Size = new System.Drawing.Size(32, 24);
             this.Bahleklabel.TabIndex = 12;
-            this.Bahleklabel.Text = "Bahlek";
+            this.Bahleklabel.Text = "EJ";
             this.Bahleklabel.Click += new System.EventHandler(this.Ejlabel_Click);
             // 
             // flowLayoutPanel2
