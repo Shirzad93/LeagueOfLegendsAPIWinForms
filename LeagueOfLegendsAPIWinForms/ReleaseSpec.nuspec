@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package >
+  <metadata>
+    <id>LolChest</id>
+    <version>1.1.1</version>
+    <title>Lol chest</title>
+    <authors>Shirzad</authors>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <license type="expression">MIT</license>
+    <description>Cool app</description>
+    <releaseNotes>Lol chest</releaseNotes>
+    <copyright>2021</copyright>
+    <tags>shiroo</tags>
+  </metadata>
+  
+  <files>
+	<file src="bin\Release\" target="lib\net461\" exclude="**\*.pdb;bin\Release\app.publish\*.exe" />
+  </files>
+</package>
