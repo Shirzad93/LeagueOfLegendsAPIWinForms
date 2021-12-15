@@ -246,6 +246,7 @@ namespace LeagueOfLegendsAPIWinForms
         {
             //All info about the summoner by id
             var championRank = await LolApiProcessor.GetChampionRank(region, summonerID);
+            //"RANKED_TFT_PAIRS" been added!
 
             foreach (var item in championRank)
             {
@@ -256,7 +257,12 @@ namespace LeagueOfLegendsAPIWinForms
                     WinsHolder.Text = item.Wins.ToString() + " W";
                     LossesHolder.Text = item.Losses.ToString() + " L";
                 }
-                else //flex
+                else if (item.QueueType == "RANKED_TFT_PAIRS")
+                {
+                    //TODO: new queue type? DO NOTHING! 
+                   
+                }
+                else
                 {
                     FlexLeaguePoints.Text = item.LeaguePoints.ToString() + " LP";
 
