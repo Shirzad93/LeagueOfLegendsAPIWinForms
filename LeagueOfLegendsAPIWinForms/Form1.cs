@@ -101,7 +101,7 @@ namespace LeagueOfLegendsAPIWinForms
         }
         private void ShirooLabel_Click(object sender, EventArgs e)
         {
-            ShowStats("Shîroo");
+            ShowStats("Shiroo");
         }
 
         private void AthiarLabel_Click(object sender, EventArgs e)
@@ -111,7 +111,7 @@ namespace LeagueOfLegendsAPIWinForms
 
         private void HkmatLabel_Click(object sender, EventArgs e)
         {
-            ShowStats("hkoo94");
+            ShowStats("Ronaldo94");
         }
 
         private void SizarLabel_Click(object sender, EventArgs e)
@@ -131,12 +131,12 @@ namespace LeagueOfLegendsAPIWinForms
 
         private void ZkayLabel_Click(object sender, EventArgs e)
         {
-            ShowStats("Carl XVÏ Gustaf");
+            ShowStats("ZKΛY");
         }
 
         private void Ejlabel_Click(object sender, EventArgs e)
         {
-            ShowStats("orkadus");
+            ShowStats("zamorak%200");
         }
 
     }

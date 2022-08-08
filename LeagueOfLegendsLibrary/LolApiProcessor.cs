@@ -93,9 +93,10 @@ namespace LeagueOfLegendsAPIWinForms
         /// <returns></returns>
         public static async Task<Rootobject> GetDetailedChampInfo()
         {
-            //string url = "https://ddragon.canisback.com/11.9.1/data/en_US/champion.json";
-            string url = "https://ddragon.canisback.com/latest/data/en_US/champion.json";
-
+        //string url = "https://ddragon.canisback.com/11.9.1/data/en_US/champion.json";
+        //string url = "https://ddragon.canisback.com/latest/data/en_US/champion.json";
+        string url = "http://ddragon.leagueoflegends.com/cdn/12.14.1/data/en_US/champion.json";
+            
             string response = await ApiHelper.ApiClient.GetStringAsync(url);
 
             Rootobject championData = JsonConvert.DeserializeObject<Rootobject>(response);
